@@ -3,26 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Website</title>
-    <link rel="stylesheet" href="test.css">
+    <title>UX/UI Web Development</title>
+    <link rel="stylesheet" href="styless.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website</h1>
+        <h1>UX/UI Web Development</h1>
+        <p>Creating delightful user experiences through design and development.</p>
     </header>
+
     <nav>
         <ul>
-            <li><a href="#" id="home-link">Home</a></li>
-            <li><a href="#" id="about-link">About</a></li>
-            <li><a href="#" id="contact-link">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-    <div id="content">
-        <p>This is the home page content.</p>
-    </div>
+
+    <section id="home">
+        <h2>Welcome</h2>
+        <p>Welcome to our UX/UI web development studio. We specialize in crafting engaging and user-friendly digital experiences.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>User Research</li>
+            <li>Wireframing and Prototyping</li>
+            <li>UI Design</li>
+            <li>Frontend Development</li>
+            <li>Usability Testing</li>
+        </ul>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <img src="https://piseytechnology.com/files/product/165554258302.jpg" alt="Project 1">
+            <h3>Project 1</h3>
+            <p>Description of project 1.</p>
+        </div>
+        <div class="project">
+            <img src="https://www.piseytechnologies.com/files/product/1630805392Segotep%20Prime%20X.jpg" alt="Project 1">
+            <img src="https://www.piseytechnologies.com/files/product/1630805392Segotep%20Prime%20X.jpg" alt="Project 2">
+            <img src="https://www.piseytechnologies.com/files/product/1630805392Segotep%20Prime%20X.jpg" alt="Project 3">
+            <img src="https://www.piseytechnologies.com/files/product/1630805392Segotep%20Prime%20X.jpg" alt="Project 4">
+            <img src="https://www.piseytechnologies.com/files/product/1630805392Segotep%20Prime%20X.jpg" alt="Project 6">
+            
+            <img src="https://www.piseytechnologies.com/files/product/1630805392Segotep%20Prime%20X.jpg" alt="Project 7">
+            
+        
+            <h3>Project 2</h3>
+            <p>Description of project 2.</p>
+        </div>
+        <!-- Add more project sections as needed -->
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Learn more about our team and our commitment to creating exceptional user experiences.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Get in touch with us to discuss your project requirements or to request a quote.</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
     <footer>
-        <p>&copy; 2024 My Website</p>
+        <p>&copy; 2024 UX/UI Web Development Studio. All rights reserved.</p>
     </footer>
-    <script src="tes.js"></script>
+
+    <script src="top.js"></script>
 </body>
 </html>
